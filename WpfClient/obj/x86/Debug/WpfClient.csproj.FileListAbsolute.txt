@@ -1,0 +1,13 @@
+c:\users\mukund\documents\visual studio 2010\Projects\SoftwareRepositoryServer\WpfClient\bin\Debug\WpfClient.exe
+c:\users\mukund\documents\visual studio 2010\Projects\SoftwareRepositoryServer\WpfClient\bin\Debug\WpfClient.pdb
+c:\users\mukund\documents\visual studio 2010\Projects\SoftwareRepositoryServer\WpfClient\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\users\mukund\documents\visual studio 2010\Projects\SoftwareRepositoryServer\WpfClient\obj\x86\Debug\MainWindow.baml
+c:\users\mukund\documents\visual studio 2010\Projects\SoftwareRepositoryServer\WpfClient\obj\x86\Debug\MainWindow.g.cs
+c:\users\mukund\documents\visual studio 2010\Projects\SoftwareRepositoryServer\WpfClient\obj\x86\Debug\App.g.cs
+c:\users\mukund\documents\visual studio 2010\Projects\SoftwareRepositoryServer\WpfClient\obj\x86\Debug\WpfClient_MarkupCompile.cache
+c:\users\mukund\documents\visual studio 2010\Projects\SoftwareRepositoryServer\WpfClient\obj\x86\Debug\WpfClient.g.resources
+c:\users\mukund\documents\visual studio 2010\Projects\SoftwareRepositoryServer\WpfClient\obj\x86\Debug\WpfClient.Properties.Resources.resources
+c:\users\mukund\documents\visual studio 2010\Projects\SoftwareRepositoryServer\WpfClient\obj\x86\Debug\GenerateResource.read.1.tlog
+c:\users\mukund\documents\visual studio 2010\Projects\SoftwareRepositoryServer\WpfClient\obj\x86\Debug\GenerateResource.write.1.tlog
+c:\users\mukund\documents\visual studio 2010\Projects\SoftwareRepositoryServer\WpfClient\obj\x86\Debug\WpfClient.exe
+c:\users\mukund\documents\visual studio 2010\Projects\SoftwareRepositoryServer\WpfClient\obj\x86\Debug\WpfClient.pdb

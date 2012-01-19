@@ -1,0 +1,5 @@
+c:\users\mukund\documents\visual studio 2010\Projects\SoftwareRepositoryServer\FileTransfer\bin\Debug\FileTransfer.dll
+c:\users\mukund\documents\visual studio 2010\Projects\SoftwareRepositoryServer\FileTransfer\bin\Debug\FileTransfer.pdb
+c:\users\mukund\documents\visual studio 2010\Projects\SoftwareRepositoryServer\FileTransfer\obj\Debug\ResolveAssemblyReference.cache
+c:\users\mukund\documents\visual studio 2010\Projects\SoftwareRepositoryServer\FileTransfer\obj\Debug\FileTransfer.dll
+c:\users\mukund\documents\visual studio 2010\Projects\SoftwareRepositoryServer\FileTransfer\obj\Debug\FileTransfer.pdb

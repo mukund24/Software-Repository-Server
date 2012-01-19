@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="RepositoryService" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://localhost:57070/RepositoryService.svc?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://localhost:57070/RepositoryService.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://localhost:57070/RepositoryService.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/SoftwareRepositoryServer" />
+      <xsd:import schemaLocation="http://localhost:57070/RepositoryService.svc?xsd=xsd3" namespace="http://schemas.datacontract.org/2004/07/System.IO" />
+      <xsd:import schemaLocation="http://localhost:57070/RepositoryService.svc?xsd=xsd4" namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IRepositoryService_GetPackages_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetPackages" />
+  </wsdl:message>
+  <wsdl:message name="IRepositoryService_GetPackages_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetPackagesResponse" />
+  </wsdl:message>
+  <wsdl:message name="IRepositoryService_CheckInPackages_InputMessage">
+    <wsdl:part name="parameters" element="tns:CheckInPackages" />
+  </wsdl:message>
+  <wsdl:message name="IRepositoryService_CheckInPackages_OutputMessage">
+    <wsdl:part name="parameters" element="tns:CheckInPackagesResponse" />
+  </wsdl:message>
+  <wsdl:message name="IRepositoryService_UploadPackages_InputMessage">
+    <wsdl:part name="parameters" element="tns:UploadPackages" />
+  </wsdl:message>
+  <wsdl:message name="IRepositoryService_UploadPackages_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UploadPackagesResponse" />
+  </wsdl:message>
+  <wsdl:message name="IRepositoryService_AuthenticateUser_InputMessage">
+    <wsdl:part name="parameters" element="tns:AuthenticateUser" />
+  </wsdl:message>
+  <wsdl:message name="IRepositoryService_AuthenticateUser_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AuthenticateUserResponse" />
+  </wsdl:message>
+  <wsdl:message name="IRepositoryService_IsRI_InputMessage">
+    <wsdl:part name="parameters" element="tns:IsRI" />
+  </wsdl:message>
+  <wsdl:message name="IRepositoryService_IsRI_OutputMessage">
+    <wsdl:part name="parameters" element="tns:IsRIResponse" />
+  </wsdl:message>
+  <wsdl:message name="IRepositoryService_CreateDownloadList_InputMessage">
+    <wsdl:part name="parameters" element="tns:CreateDownloadList" />
+  </wsdl:message>
+  <wsdl:message name="IRepositoryService_CreateDownloadList_OutputMessage">
+    <wsdl:part name="parameters" element="tns:CreateDownloadListResponse" />
+  </wsdl:message>
+  <wsdl:message name="IRepositoryService_CanCancelOpenCheckIn_InputMessage">
+    <wsdl:part name="parameters" element="tns:CanCancelOpenCheckIn" />
+  </wsdl:message>
+  <wsdl:message name="IRepositoryService_CanCancelOpenCheckIn_OutputMessage">
+    <wsdl:part name="parameters" element="tns:CanCancelOpenCheckInResponse" />
+  </wsdl:message>
+  <wsdl:message name="IRepositoryService_CancelOpenCheckIn_InputMessage">
+    <wsdl:part name="parameters" element="tns:CancelOpenCheckIn" />
+  </wsdl:message>
+  <wsdl:message name="IRepositoryService_CancelOpenCheckIn_OutputMessage">
+    <wsdl:part name="parameters" element="tns:CancelOpenCheckInResponse" />
+  </wsdl:message>
+  <wsdl:message name="IRepositoryService_InitiateDownload_InputMessage">
+    <wsdl:part name="parameters" element="tns:InitiateDownload" />
+  </wsdl:message>
+  <wsdl:message name="IRepositoryService_InitiateDownload_OutputMessage">
+    <wsdl:part name="parameters" element="tns:InitiateDownloadResponse" />
+  </wsdl:message>
+  <wsdl:message name="IRepositoryService_DownloadPackage_InputMessage">
+    <wsdl:part name="parameters" element="tns:DownloadPackage" />
+  </wsdl:message>
+  <wsdl:message name="IRepositoryService_DownloadPackage_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DownloadPackageResponse" />
+  </wsdl:message>
+  <wsdl:message name="IRepositoryService_CloseDownload_InputMessage">
+    <wsdl:part name="parameters" element="tns:CloseDownload" />
+  </wsdl:message>
+  <wsdl:message name="IRepositoryService_CloseDownload_OutputMessage">
+    <wsdl:part name="parameters" element="tns:CloseDownloadResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IRepositoryService">
+    <wsdl:operation name="GetPackages">
+      <wsdl:input wsaw:Action="http://tempuri.org/IRepositoryService/GetPackages" message="tns:IRepositoryService_GetPackages_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IRepositoryService/GetPackagesResponse" message="tns:IRepositoryService_GetPackages_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="CheckInPackages">
+      <wsdl:input wsaw:Action="http://tempuri.org/IRepositoryService/CheckInPackages" message="tns:IRepositoryService_CheckInPackages_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IRepositoryService/CheckInPackagesResponse" message="tns:IRepositoryService_CheckInPackages_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UploadPackages">
+      <wsdl:input wsaw:Action="http://tempuri.org/IRepositoryService/UploadPackages" message="tns:IRepositoryService_UploadPackages_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IRepositoryService/UploadPackagesResponse" message="tns:IRepositoryService_UploadPackages_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="AuthenticateUser">
+      <wsdl:input wsaw:Action="http://tempuri.org/IRepositoryService/AuthenticateUser" message="tns:IRepositoryService_AuthenticateUser_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IRepositoryService/AuthenticateUserResponse" message="tns:IRepositoryService_AuthenticateUser_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="IsRI">
+      <wsdl:input wsaw:Action="http://tempuri.org/IRepositoryService/IsRI" message="tns:IRepositoryService_IsRI_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IRepositoryService/IsRIResponse" message="tns:IRepositoryService_IsRI_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="CreateDownloadList">
+      <wsdl:input wsaw:Action="http://tempuri.org/IRepositoryService/CreateDownloadList" message="tns:IRepositoryService_CreateDownloadList_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IRepositoryService/CreateDownloadListResponse" message="tns:IRepositoryService_CreateDownloadList_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="CanCancelOpenCheckIn">
+      <wsdl:input wsaw:Action="http://tempuri.org/IRepositoryService/CanCancelOpenCheckIn" message="tns:IRepositoryService_CanCancelOpenCheckIn_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IRepositoryService/CanCancelOpenCheckInResponse" message="tns:IRepositoryService_CanCancelOpenCheckIn_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="CancelOpenCheckIn">
+      <wsdl:input wsaw:Action="http://tempuri.org/IRepositoryService/CancelOpenCheckIn" message="tns:IRepositoryService_CancelOpenCheckIn_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IRepositoryService/CancelOpenCheckInResponse" message="tns:IRepositoryService_CancelOpenCheckIn_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="InitiateDownload">
+      <wsdl:input wsaw:Action="http://tempuri.org/IRepositoryService/InitiateDownload" message="tns:IRepositoryService_InitiateDownload_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IRepositoryService/InitiateDownloadResponse" message="tns:IRepositoryService_InitiateDownload_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DownloadPackage">
+      <wsdl:input wsaw:Action="http://tempuri.org/IRepositoryService/DownloadPackage" message="tns:IRepositoryService_DownloadPackage_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IRepositoryService/DownloadPackageResponse" message="tns:IRepositoryService_DownloadPackage_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="CloseDownload">
+      <wsdl:input wsaw:Action="http://tempuri.org/IRepositoryService/CloseDownload" message="tns:IRepositoryService_CloseDownload_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IRepositoryService/CloseDownloadResponse" message="tns:IRepositoryService_CloseDownload_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_IRepositoryService" type="tns:IRepositoryService">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetPackages">
+      <soap:operation soapAction="http://tempuri.org/IRepositoryService/GetPackages" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CheckInPackages">
+      <soap:operation soapAction="http://tempuri.org/IRepositoryService/CheckInPackages" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UploadPackages">
+      <soap:operation soapAction="http://tempuri.org/IRepositoryService/UploadPackages" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AuthenticateUser">
+      <soap:operation soapAction="http://tempuri.org/IRepositoryService/AuthenticateUser" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="IsRI">
+      <soap:operation soapAction="http://tempuri.org/IRepositoryService/IsRI" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CreateDownloadList">
+      <soap:operation soapAction="http://tempuri.org/IRepositoryService/CreateDownloadList" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CanCancelOpenCheckIn">
+      <soap:operation soapAction="http://tempuri.org/IRepositoryService/CanCancelOpenCheckIn" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CancelOpenCheckIn">
+      <soap:operation soapAction="http://tempuri.org/IRepositoryService/CancelOpenCheckIn" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InitiateDownload">
+      <soap:operation soapAction="http://tempuri.org/IRepositoryService/InitiateDownload" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DownloadPackage">
+      <soap:operation soapAction="http://tempuri.org/IRepositoryService/DownloadPackage" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CloseDownload">
+      <soap:operation soapAction="http://tempuri.org/IRepositoryService/CloseDownload" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="RepositoryService">
+    <wsdl:port name="BasicHttpBinding_IRepositoryService" binding="tns:BasicHttpBinding_IRepositoryService">
+      <soap:address location="http://localhost:57070/RepositoryService.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

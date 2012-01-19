@@ -1,0 +1,1 @@
+devenv "SoftwareRepositoryServer.sln" /rebuild

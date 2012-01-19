@@ -1,0 +1,5 @@
+C:\Users\Mukund\Documents\Visual Studio 2010\Projects\SoftwareRepositoryServer\VersionManager\bin\Debug\VersionManager.exe
+C:\Users\Mukund\Documents\Visual Studio 2010\Projects\SoftwareRepositoryServer\VersionManager\bin\Debug\VersionManager.pdb
+C:\Users\Mukund\Documents\Visual Studio 2010\Projects\SoftwareRepositoryServer\VersionManager\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Mukund\Documents\Visual Studio 2010\Projects\SoftwareRepositoryServer\VersionManager\obj\Debug\VersionManager.exe
+C:\Users\Mukund\Documents\Visual Studio 2010\Projects\SoftwareRepositoryServer\VersionManager\obj\Debug\VersionManager.pdb

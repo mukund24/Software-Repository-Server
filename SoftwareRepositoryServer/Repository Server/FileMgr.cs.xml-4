@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<MANIFEST>
+  <RI>mukund</RI>
+  <PACKAGE>FileMgr.cs</PACKAGE>
+  <STATUS>CLOSED</STATUS>
+  <DEPENDENCIES>
+    <DEPENDENCY>Publisher.cs.xml-3</DEPENDENCY>
+  </DEPENDENCIES>
+</MANIFEST>

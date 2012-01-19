@@ -1,0 +1,5 @@
+C:\Users\Mukund\Documents\Visual Studio 2010\Projects\SoftwareRepositoryServer\ManifestGenerator\bin\Debug\ManifestGenerator.exe
+C:\Users\Mukund\Documents\Visual Studio 2010\Projects\SoftwareRepositoryServer\ManifestGenerator\bin\Debug\ManifestGenerator.pdb
+C:\Users\Mukund\Documents\Visual Studio 2010\Projects\SoftwareRepositoryServer\ManifestGenerator\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Mukund\Documents\Visual Studio 2010\Projects\SoftwareRepositoryServer\ManifestGenerator\obj\Debug\ManifestGenerator.exe
+C:\Users\Mukund\Documents\Visual Studio 2010\Projects\SoftwareRepositoryServer\ManifestGenerator\obj\Debug\ManifestGenerator.pdb

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<MANIFEST>
+  <RI>mukund</RI>
+  <PACKAGE>Manifest.cs</PACKAGE>
+  <STATUS>CLOSED</STATUS>
+  <DEPENDENCIES>
+    <DEPENDENCY>Test.cs.xml-1</DEPENDENCY>
+  </DEPENDENCIES>
+</MANIFEST>

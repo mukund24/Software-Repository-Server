@@ -1,0 +1,13 @@
+﻿<Window x:Class="WpfClient.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Software Repository Server" Height="492" Width="844">
+    <DockPanel Height="453" Name="dockPanel1" Width="813">
+        <TabControl Height="422" Name="tabControl1" Width="801"></TabControl>
+        <TabControl Height="100" Name="tabControl2" Width="200">
+            <TabItem Header="tabItem1" Name="tabItem1">
+                <Grid />
+            </TabItem>
+        </TabControl>
+    </DockPanel>
+</Window>

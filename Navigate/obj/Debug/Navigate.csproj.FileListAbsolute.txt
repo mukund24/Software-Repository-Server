@@ -1,0 +1,12 @@
+C:\su\CoreTechnologies\CSharp\code\Navigate\obj\Debug\Navigate.exe
+C:\su\CoreTechnologies\CSharp\code\Navigate\obj\Debug\Navigate.pdb
+C:\su\CoreTechnologies\CSharp\code\Navigate\bin\Debug\Navigate.exe
+C:\su\CoreTechnologies\CSharp\code\Navigate\bin\Debug\Navigate.pdb
+C:\su\CoreTechnologies\CSharp\code\Navigate\obj\Debug\ResolveAssemblyReference.cache
+C:\temp\Integrate\Navigate\obj\Debug\Navigate.exe
+C:\temp\Integrate\Navigate\obj\Debug\Navigate.pdb
+C:\temp\Integrate\Project2\Navigate\obj\Debug\Navigate.pdb
+C:\temp\Integrate\Project2\Navigate\bin\Debug\Navigate.dll
+C:\temp\Integrate\Project2\Navigate\bin\Debug\Navigate.pdb
+C:\temp\Integrate\Project2\Navigate\obj\Debug\ResolveAssemblyReference.cache
+C:\temp\Integrate\Project2\Navigate\obj\Debug\Navigate.dll
